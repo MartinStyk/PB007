@@ -1,0 +1,5 @@
+Mato napady na zamyslenie
+
+1. Urobit strukturu ludi v projekte podobne ako mal valdemar v jeho ?
+2. trieda Issue - issue ktoru zareportuje customer/vytvori manager
+   trieda IssueTicket - to co by vytvoril technik, obahovalo by to atribut typu issue?	
