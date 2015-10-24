@@ -13,3 +13,11 @@ Mato napady na zamyslenie
    je to mierne (aka dost) neprehladne
    
    http://www.visual-paradigm.com/support/documents/vpuserguide/94/2576/7190_drawingclass.html
+
+
+P.C : ideas
+- a knowledge base tam nemame. a ete historiu prace na issue -- to som doplnil , knowledge je podla to o zakaznikoch 
+- mozno nieco na notifikacie - zatial som dal len metody
+- pridane nejake metody a atributy
+- vytvoril som commonIssue a Issue - pritom treba nejako zaviest ze ked sa schvali tak sa to rovno prehodi na vytvara ticketu a ID a description tam ostane z toho issue
+- changes bude nieco ako tuple(timestamp,tuple(valueOld,valueNew)).. este to moze byt v ArrayListe
