@@ -1,23 +1,11 @@
-Mato napady na zamyslenie
-
-1. Urobit strukturu ludi v projekte podobne ako mal valdemar v jeho ?
-2. trieda Issue - issue ktoru zareportuje customer/vytvori manager
-   trieda IssueTicket - to co by vytvoril technik, obahovalo by to atribut typu issue?	
-   
-   
-   Z
-   nemyslim si, ze Issue ako take bude mat ID, description, status ...
-   sme zase v bode "v akej forme existuje Issue"?
-   
-   SupportManagerManager :D
-   je to mierne (aka dost) neprehladne
-   
-   http://www.visual-paradigm.com/support/documents/vpuserguide/94/2576/7190_drawingclass.html
-
-
-P.C : ideas
-- a knowledge base tam nemame. a ete historiu prace na issue -- to som doplnil , knowledge je podla to o zakaznikoch 
+- struktura ludi?
+- knowledge base
+- historia prace na issue 
 - mozno nieco na notifikacie - zatial som dal len metody
-- pridane nejake metody a atributy
-- vytvoril som commonIssue a Issue - pritom treba nejako zaviest ze ked sa schvali tak sa to rovno prehodi na vytvara ticketu a ID a description tam ostane z toho issue
+
+- vytvoril som commonIssue a Issue - pritom treba nejako zaviest ze ked sa schvali tak sa to rovno prehodi na vytvaranie ticketu a ID a description tam ostane z toho issue
+
 - changes bude nieco ako tuple(timestamp,tuple(valueOld,valueNew)).. este to moze byt v ArrayListe
+^ ked uz to bude v ArrayList-e, bud ukladat IssueTickets zaradom alebo len changesSinceLastUpdate (to mi nie je jasne uplne ako by sme reprezentovali)
+
+- technician attribute isBusy?
