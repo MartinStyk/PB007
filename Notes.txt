@@ -1,11 +1,3 @@
-- struktura ludi?
-- knowledge base
-- historia prace na issue 
-- mozno nieco na notifikacie - zatial som dal len metody
-
-- vytvoril som commonIssue a Issue - pritom treba nejako zaviest ze ked sa schvali tak sa to rovno prehodi na vytvaranie ticketu a ID a description tam ostane z toho issue
-
-- changes bude nieco ako tuple(timestamp,tuple(valueOld,valueNew)).. este to moze byt v ArrayListe
-^ ked uz to bude v ArrayList-e, bud ukladat IssueTickets zaradom alebo len changesSinceLastUpdate (to mi nie je jasne uplne ako by sme reprezentovali)
-
-- technician attribute isBusy?
+to check:
+- attributes/methods visibility
+- aggregation, composition [associations]
